@@ -15,6 +15,7 @@ module.exports = {
         'describe': 'readonly',
         'ethers': 'readonly',
         'it': 'readonly',
+        'context': 'readonly',
         'network': 'readonly',
         'process': 'readonly',
         'upgrades': 'readonly'

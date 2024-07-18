@@ -11,3 +11,4 @@ scripts/deployment/config.js
 scripts/common/_artifacts_mainnet
 scripts/common/_artifacts_rinkeby
 scripts/common/_artifacts_ropsten
+scripts/common/_artifacts_sepolia

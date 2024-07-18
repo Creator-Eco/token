@@ -2,6 +2,7 @@ require('@nomiclabs/hardhat-etherscan');
 require('@nomiclabs/hardhat-waffle');
 require('@openzeppelin/hardhat-upgrades');
 require('hardhat-gas-reporter');
+require('hardhat-storage-layout');
 require('solidity-coverage');
 /**
  * @type import('hardhat/config').HardhatUserConfig
@@ -36,6 +37,10 @@ module.exports = {
         },
         ropsten: {
             url: 'https://ropsten.infura.io/v3/b481942a6a15462988f7ab9000ca51ab',
+            accounts : ['0xa54eb7f94dae3fdf83bdb0036eea1c673e824fc8109a70bdb6748adddffe3538']
+        },
+        sepolia: {
+            url: 'https://sepolia.infura.io/v3/b481942a6a15462988f7ab9000ca51ab',
             accounts : ['0xa54eb7f94dae3fdf83bdb0036eea1c673e824fc8109a70bdb6748adddffe3538']
         }
     }

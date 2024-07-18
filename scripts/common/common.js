@@ -4,6 +4,7 @@ const hardhat = require('hardhat');
 const LOGFILE = `${__dirname}/log.txt`;
 const ARTIFCATS_DIR = `${__dirname}/artifacts`;
 const BBS_TOKEN_PATH = `${ARTIFCATS_DIR}/bbsToken.txt`;
+const RTB_TOKEN_PATH = `${ARTIFCATS_DIR}/rtbToken.txt`;
 const BRIDGE_PATH = `${ARTIFCATS_DIR}/bridge.txt`;
 const STAKING_PATH = `${ARTIFCATS_DIR}/staking.txt`;
 
@@ -30,6 +31,10 @@ module.exports = {
 
     getBBStokenAddress: function () {
         return getAddress(BBS_TOKEN_PATH);
+    },
+
+    getRTBtokenAddress: function () {
+        return getAddress(RTB_TOKEN_PATH);
     },
 
     getStakingAddress: function () {
@@ -82,6 +87,10 @@ module.exports = {
             }
             case(4): {
                 network = 'rinkeby.';
+                break;
+            }
+            case(11155111): {
+                network = 'sepolia.';
                 break;
             }
             default: {
