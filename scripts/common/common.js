@@ -15,6 +15,7 @@ function getAddress(path) {
 module.exports = {
     artifactsDir: ARTIFCATS_DIR,
     bbsTokenPath: BBS_TOKEN_PATH,
+    rtbTokenPath: RTB_TOKEN_PATH,
     bridgePath: BRIDGE_PATH,
     stakingPath: STAKING_PATH,
 
@@ -87,10 +88,6 @@ module.exports = {
             }
             case(4): {
                 network = 'rinkeby.';
-                break;
-            }
-            case(11155111): {
-                network = 'sepolia.';
                 break;
             }
             default: {

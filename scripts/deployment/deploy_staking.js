@@ -16,7 +16,7 @@ async function main() {
         throw new Error('Staking already deployed. aborting.');
 
     log('Deploying Staking...');
-    const Staking = await hardhat.ethers.getContractFactory('StakingUpgrade1');
+    const Staking = await hardhat.ethers.getContractFactory('Staking');
     const staking = await upgrades.deployProxy(Staking, [BBS_TOKEN_ADDRESS]);
     await staking.deployed();
     common.etherscanLogContract(staking.address, staking.deployTransaction.chainId);

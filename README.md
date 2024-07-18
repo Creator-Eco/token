@@ -109,3 +109,32 @@ After Contract deployment:
 ```shell
 npx hardhat verify --network NETWORK_NAME CONTRACT_ADDRESS
 ```
+
+### Scripts examples
+```shell
+    npx hardhat run ./scripts/deployment/verify_contract_rtb.js --network sepolia
+    npx hardhat verify --contract contracts/Staking.sol:Staking --network ${config.network} ${STAKING_ADDRESS}
+    npx hardhat verify --contract contracts/BBSToken.sol:BBSToken --network sepolia 0x0eAE3798e35b66352F24Bcb943DaE2bB19FE69e
+    npx hardhat verify --contract contracts/RTBToken.sol:RTBToken --network sepolia 0xcb7F3D798523188DF5C7170590fD8B7Ea33b7417
+
+    export NODE_OPTIONS=--openssl-legacy-provider && npx hardhat run ./scripts/deployment/promote_quarter.js --network sepolia
+    QUARTER_INDEX=0 npx hardhat run ./scripts/deployment/declare_rewards.js --network sepolia
+```
+
+### Verify staking
+
+// TODO - STAKING_ADDRESS should be the implementation address, not the proxy address.
+// Then go to https://sepolia.etherscan.io/proxyContractChecker?a=0x94F32CA9c737FFe1b9e040de4027BAB92eb1f85a with PROXY_ADDRESS
+// npx hardhat verify --contract contracts/StakingUpgrade1.sol:Staking --network sepolia 0x35153939fb080d6e1f416f4c78d8e17a72b03a35 
+
+// Verify upgrate: params: contract address, bbs address, rtb address
+// npx hardhat verify --contract contracts/StakingUpgrade2.sol:StakingUpgrade2 --network sepolia 0x09510105FC816478D77Ca9be8d941556dB8D9bEc "0x0eAE3798e35b66352F24Bcb943DaE2bB19FE69e6" "0xcb7F3D798523188DF5C7170590fD8B7Ea33b7417"
+
+
+npx hardhat run ./scripts/deployment/deploy_rtb_token.js --network mainnet
+npx hardhat verify --contract contracts/RTBToken.sol:RTBToken --network mainnet 0x055999B83f9cADE9E3988A0f34Ef72817566800D
+npx hardhat run ./scripts/deployment/mint_rtb.js --network mainnet
+
+npx hardhat run ./scripts/deployment/staking_upgrade_2.js --network mainnet
+npx hardhat verify --contract contracts/StakingUpgrade2.sol:StakingUpgrade2 --network mainnet 0x9896Bf7C7b86b2D489a14E4b3f5BBE9520e5dA6D "0xFe459828c90c0BA4bC8b42F5C5D44F316700B430" "0x055999B83f9cADE9E3988A0f34Ef72817566800D"
+npx hardhat run ./scripts/deployment/transfer_rtb_to_staking.js --network mainnet

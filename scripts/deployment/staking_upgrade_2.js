@@ -4,7 +4,7 @@ const common = require('../common/common.js');
 const log = common.log;
 
 const BBS_TOKEN_ADDRESS = common.getBBStokenAddress();
-const RTB_TOKEN_ADDRESS = common.getBBStokenAddress();
+const RTB_TOKEN_ADDRESS = common.getRTBtokenAddress();
 const STAKING_ADDRESS = common.getStakingAddress();
 
 async function main() {

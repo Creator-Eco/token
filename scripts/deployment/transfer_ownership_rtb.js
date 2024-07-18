@@ -1,11 +1,10 @@
 const config = require('./config.js');
 const common = require('../common/common.js');
 
-const STACKING_ADDRESS = common.getStakingAddress();
-
+const RTB_TOKEN_ADDRESS = common.getRTBtokenAddress();
 
 async function main() {
-    await common.transferOwnership('Staking', STACKING_ADDRESS, config.safe.address);
+    await common.transferOwnership('RTBToken', RTB_TOKEN_ADDRESS, config.safe.address);
 }
 
 main().then(() => process.exit(0)).catch(error => {
