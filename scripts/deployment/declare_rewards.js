@@ -22,7 +22,7 @@ async function main() {
     if (!QUARTER_INDEX)
         throw new Error('No quarter index. aborting');
 
-    const Staking = await hardhat.ethers.getContractFactory('Staking');
+    const Staking = await hardhat.ethers.getContractFactory('StakingUpgrade1');
     const staking = Staking.attach(STACKING_ADDRESS);
 
     const rewardConfig = config.rewards.find(reward => reward.q == QUARTER_INDEX);
