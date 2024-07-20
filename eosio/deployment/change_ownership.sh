@@ -12,4 +12,7 @@ kleos set account permission $bridge_account owner $NEW_OWNER_PUB_KEY -p $bridge
 kleos set account permission $bbs_account active $NEW_OWNER_PUB_KEY -p $bbs_account@owner
 kleos set account permission $bbs_account owner $NEW_OWNER_PUB_KEY -p $bbs_account@owner
 
+kleos set account permission $reporter_account active $NEW_OWNER_PUB_KEY -p $reporter_account@owner
+kleos set account permission $reporter_account owner $NEW_OWNER_PUB_KEY -p $reporter_account@owner
+
 popd
