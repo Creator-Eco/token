@@ -1,0 +1,257 @@
+Thu Dec 16 2021 15:52:55 | ---Deplyoment of BBS token---
+Thu Dec 16 2021 15:52:55 | Deploying BBS token...
+Thu Dec 16 2021 15:53:07 | https://etherscan.io/address/0xFe459828c90c0BA4bC8b42F5C5D44F316700B430
+Thu Dec 16 2021 15:53:07 | ---Deplyoment of BBS token Done---
+Thu Dec 16 2021 15:58:57 | ---Verify BBS contract---
+Thu Dec 16 2021 15:58:59 | error: Command failed: npx hardhat verify --network main 0xFe459828c90c0BA4bC8b42F5C5D44F316700B430
+Error HH100: Network main doesn't exist
+For more info go to https://hardhat.org/HH100 or run Hardhat with --show-stack-traces
+Thu Dec 16 2021 16:00:15 | ---Verify BBS contract---
+Thu Dec 16 2021 16:01:50 | stdout: Nothing to compile
+Compiling 1 file with 0.8.6
+Successfully submitted source code for contract
+contracts/BBSToken.sol:BBSToken at 0xFe459828c90c0BA4bC8b42F5C5D44F316700B430
+for verification on Etherscan. Waiting for verification result...
+Successfully verified contract BBSToken on Etherscan.
+https://etherscan.io/address/0xFe459828c90c0BA4bC8b42F5C5D44F316700B430#code
+Thu Dec 16 2021 16:01:50 | ---Verify BBS contract Done---
+Sun Feb 13 2022 17:31:05 | ---Mint BBS tokens---
+Sun Feb 13 2022 17:31:06 | Minting 1000000000 tokens to 0x725AC570B0ED65219b950a606404BB35021A6b1E
+Sun Feb 13 2022 20:53:31 | ---Mint BBS tokens---
+Sun Feb 13 2022 20:53:32 | Minting 1000000000 tokens to 0x725AC570B0ED65219b950a606404BB35021A6b1E
+Sun Feb 13 2022 20:53:38 GMT+0200 (Israel Standard Time) | Error: replacement fee too low (error={"name":"ProviderError","code":-32000,"_isProviderError":true}, method="sendTransaction", transaction=undefined, code=REPLACEMENT_UNDERPRICED, version=providers/5.5.2)
+Sun Feb 13 2022 20:58:31 | ---Mint BBS tokens---
+Sun Feb 13 2022 20:58:32 | Minting 1000000000 tokens to 0x725AC570B0ED65219b950a606404BB35021A6b1E
+Sun Feb 13 2022 20:58:38 | https://etherscan.io/tx/0xcf41f5098c3accb76be1bbed8abe64311a9257bdeeb2f881a93e46f82af765a1
+Sun Feb 13 2022 20:58:38 | ---Mint BBS tokens Done---
+Mon Feb 14 2022 15:42:31 | ---Transfer ownership---
+Mon Feb 14 2022 15:42:34 | Transfering ownership of BBSToken to 0xeE294a573eA5B77b84880a109FAeD7FdC0136d2D
+Mon Feb 14 2022 15:42:39 | https://etherscan.io/tx/0xb7c868297aab2f5d8ca41a38392b34b2565298d7a5021ebc2db4f3c0ceaccc1a
+Mon Feb 14 2022 15:42:39 | ---Transfer ownership Done---
+Thu Feb 17 2022 16:26:48 | ---Deployment of Staking---
+Thu Feb 17 2022 16:26:48 | Deploying Staking...
+Thu Feb 17 2022 16:28:22 | https://etherscan.io/address/0xCeE4510fc056fd7dCCf8109F9Ed9fe452D732B4c
+Thu Feb 17 2022 16:28:22 | ---Deployment of Staking Done---
+Thu Feb 17 2022 16:50:39 | ---Transfer ownership---
+Thu Feb 17 2022 16:50:41 | Transfering ownership of Staking to 0xeE294a573eA5B77b84880a109FAeD7FdC0136d2D
+Thu Feb 17 2022 16:50:48 | https://etherscan.io/tx/0xd55d4314281cbbc665fcec9be84f2739197d85b63a7530ae16471960907796eb
+Thu Feb 17 2022 16:50:48 | ---Transfer ownership Done---
+Thu Feb 17 2022 17:08:37 | ---Declare rewards---
+Thu Feb 17 2022 17:08:38 | Required rewards for quarter 0 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:08:41 | Current rewards for quarter 0 is 0 (wei)
+Thu Feb 17 2022 17:08:41 | Adding rewards for quarter 0, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:08:52 | https://etherscan.io/tx/0x3250fd80fa4717798506f000bb6d2ffba318b6f44c0e0fe565866cbb76b9540f
+Thu Feb 17 2022 17:08:52 | ---Declare rewards Done---
+Thu Feb 17 2022 17:10:17 | ---Declare rewards---
+Thu Feb 17 2022 17:10:17 | Required rewards for quarter 1 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:10:19 | Current rewards for quarter 1 is 0 (wei)
+Thu Feb 17 2022 17:10:19 | Adding rewards for quarter 1, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:10:30 | https://etherscan.io/tx/0x3304d36c8f52ab22209316ad6f0144bfcbffafb8bfce82c64a99d8b63d373390
+Thu Feb 17 2022 17:10:30 | ---Declare rewards Done---
+Thu Feb 17 2022 17:11:20 | ---Declare rewards---
+Thu Feb 17 2022 17:11:22 | Required rewards for quarter 2 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:11:24 | Current rewards for quarter 2 is 0 (wei)
+Thu Feb 17 2022 17:11:24 | Adding rewards for quarter 2, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:11:36 | https://etherscan.io/tx/0x3b68b431a81eeddda0ddfd697f065ed09fb88c78ad9e7b27775cfbd4eac2ccc8
+Thu Feb 17 2022 17:11:36 | ---Declare rewards Done---
+Thu Feb 17 2022 17:14:26 | ---Declare rewards---
+Thu Feb 17 2022 17:14:27 GMT+0200 (Israel Standard Time) | TypeError: Cannot read property 'amount' of undefined
+Thu Feb 17 2022 17:14:51 | ---Declare rewards---
+Thu Feb 17 2022 17:14:52 | Required rewards for quarter 3 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:14:54 | Current rewards for quarter 3 is 0 (wei)
+Thu Feb 17 2022 17:14:54 | Adding rewards for quarter 3, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:15:08 | https://etherscan.io/tx/0x9499ca1ba6d02163e99d99381c1c090ebf6d4dcb0831f924939dd7f6a0f9dc36
+Thu Feb 17 2022 17:15:08 | ---Declare rewards Done---
+Thu Feb 17 2022 17:22:54 | ---Declare rewards---
+Thu Feb 17 2022 17:22:55 | Required rewards for quarter 4 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:22:57 | Current rewards for quarter 4 is 0 (wei)
+Thu Feb 17 2022 17:22:57 | Adding rewards for quarter 4, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:23:08 | https://etherscan.io/tx/0x1493730af81a0e9712b68384b72e904f8cef439bf281c1f44beb5c908cb5b97c
+Thu Feb 17 2022 17:23:08 | ---Declare rewards Done---
+Thu Feb 17 2022 17:25:15 | ---Declare rewards---
+Thu Feb 17 2022 17:25:16 | Required rewards for quarter 5 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:25:18 | Current rewards for quarter 5 is 0 (wei)
+Thu Feb 17 2022 17:25:18 | Adding rewards for quarter 5, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:25:28 | https://etherscan.io/tx/0x750a4d99ae335e6c2ceac91ab8f4164878e6945336350ff38ee5407342b6f4ee
+Thu Feb 17 2022 17:25:28 | ---Declare rewards Done---
+Thu Feb 17 2022 17:26:44 | ---Declare rewards---
+Thu Feb 17 2022 17:26:45 | Required rewards for quarter 6 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:26:47 | Current rewards for quarter 6 is 0 (wei)
+Thu Feb 17 2022 17:26:47 | Adding rewards for quarter 6, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:26:57 | https://etherscan.io/tx/0xdba5bd2d5c737e6bff7ccd1480506b53700f99c4ab5e2efe29bbf720b567c99d
+Thu Feb 17 2022 17:26:57 | ---Declare rewards Done---
+Thu Feb 17 2022 17:27:27 | ---Declare rewards---
+Thu Feb 17 2022 17:27:27 | Required rewards for quarter 7 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:27:29 | Current rewards for quarter 7 is 0 (wei)
+Thu Feb 17 2022 17:27:29 | Adding rewards for quarter 7, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:27:41 | https://etherscan.io/tx/0x4f108152e19682124390994e291a021af1cff92d43d61aa27d0ef648b92a168c
+Thu Feb 17 2022 17:27:41 | ---Declare rewards Done---
+Thu Feb 17 2022 17:28:59 | ---Declare rewards---
+Thu Feb 17 2022 17:29:00 | Required rewards for quarter 8 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:29:01 | Current rewards for quarter 8 is 0 (wei)
+Thu Feb 17 2022 17:29:01 | Adding rewards for quarter 8, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:29:13 | https://etherscan.io/tx/0x90b9cf18a766a2da7ae874262ec8df91e772ac6dbed641404b5a65ae5b4f5a0c
+Thu Feb 17 2022 17:29:13 | ---Declare rewards Done---
+Thu Feb 17 2022 17:29:56 | ---Declare rewards---
+Thu Feb 17 2022 17:29:57 | Required rewards for quarter 9 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:29:59 | Current rewards for quarter 9 is 0 (wei)
+Thu Feb 17 2022 17:29:59 | Adding rewards for quarter 9, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:30:11 | https://etherscan.io/tx/0xdcd067567b22e1a129655ae90f76a5b2659ed48c3912fa20d70d0250138371a8
+Thu Feb 17 2022 17:30:11 | ---Declare rewards Done---
+Thu Feb 17 2022 17:31:09 | ---Declare rewards---
+Thu Feb 17 2022 17:31:10 | Required rewards for quarter 10 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:31:12 | Current rewards for quarter 10 is 0 (wei)
+Thu Feb 17 2022 17:31:12 | Adding rewards for quarter 10, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:31:22 | https://etherscan.io/tx/0xb3d4ede77d8d13e3f34d92004464c4d54c0620f0d5f220cc548ac1a8a62e521c
+Thu Feb 17 2022 17:31:22 | ---Declare rewards Done---
+Thu Feb 17 2022 17:32:40 | ---Declare rewards---
+Thu Feb 17 2022 17:32:41 | Required rewards for quarter 11 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:32:44 | Current rewards for quarter 11 is 0 (wei)
+Thu Feb 17 2022 17:32:44 | Adding rewards for quarter 11, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:32:57 | https://etherscan.io/tx/0x16f9db330da5a192c0fdd2daa90d91595ecd562086ace2dbfe034da669e7cb29
+Thu Feb 17 2022 17:32:57 | ---Declare rewards Done---
+Thu Feb 17 2022 17:33:51 | ---Declare rewards---
+Thu Feb 17 2022 17:33:52 | Required rewards for quarter 12 is 10000000000000000000000000 (wei)
+Thu Feb 17 2022 17:33:54 | Current rewards for quarter 12 is 0 (wei)
+Thu Feb 17 2022 17:33:54 | Adding rewards for quarter 12, amount (wei): 10000000000000000000000000
+Thu Feb 17 2022 17:34:07 | https://etherscan.io/tx/0x7f721f8f4bf2f831f1d391fd7b3cc1317d3eb130c3a02847eb22ffeb42ed782e
+Thu Feb 17 2022 17:34:07 | ---Declare rewards Done---
+Tue Feb 22 2022 13:02:46 | ---Deployment of Bridge---
+Tue Feb 22 2022 13:02:46 | Deploying Bridge...
+Tue Feb 22 2022 13:02:55 | https://etherscan.io/address/0x22d0407029261876B77d49adCBD45faC6151D8cA
+Tue Feb 22 2022 13:02:55 | ---Deployment of Bridge Done---
+Tue Feb 22 2022 13:04:11 | ---Verify BRIDGE contract---
+Tue Feb 22 2022 13:05:04 | stdout: Nothing to compile
+Compiling 1 file with 0.8.6
+Successfully submitted source code for contract
+contracts/Bridge.sol:Bridge at 0x22d0407029261876B77d49adCBD45faC6151D8cA
+for verification on Etherscan. Waiting for verification result...
+
+Successfully verified contract Bridge on Etherscan.
+https://etherscan.io/address/0x22d0407029261876B77d49adCBD45faC6151D8cA#code
+
+Tue Feb 22 2022 13:05:04 | ---Verify BRIDGE contract Done---
+Tue Feb 22 2022 13:06:13 | ---Set reporters for bridge---
+Tue Feb 22 2022 13:06:14 | Set Reporters...
+Tue Feb 22 2022 13:06:21 | https://etherscan.io/tx/0x57a46bad1bb2eb4952800dc09b7e651b41b3e2b7c84c426c54a78b4483ffaeda
+Tue Feb 22 2022 13:06:21 | Set Reporters Done
+Tue Feb 22 2022 13:06:21 | ---Set reporters for bridge Done---
+
+Tue Feb 22 2022 15:06:14 | ---Staking upgrade 1---
+Tue Feb 22 2022 15:06:14 | Upgrading Staking...
+Tue Feb 22 2022 15:06:35 GMT+0200 (Israel Standard Time) | Error: cannot estimate gas; transaction may fail or may require manual gas limit (error={"name":"ProviderError","code":3,"_isProviderError":true,"data":"0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000204f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572"}, method="estimateGas", transaction={"from":"0xcAc33C535B2c09C0Ae312E09841d51CCaeF9b11c","to":"0xAb1E3fb4D35A0eA4e369463743f964Ae90ac09AF","data":"0x99a88ec4000000000000000000000000cee4510fc056fd7dccf8109f9ed9fe452d732b4c00000000000000000000000038061355272e487ca6ba929038442734127114e1","accessList":null}, code=UNPREDICTABLE_GAS_LIMIT, version=providers/5.5.1)
+Tue Feb 22 2022 15:07:28 | ---Staking upgrade 1---
+Tue Feb 22 2022 15:07:28 | Upgrading Staking...
+Tue Feb 22 2022 15:07:53 | https://etherscan.io/address/0xCeE4510fc056fd7dCCf8109F9Ed9fe452D732B4c
+Tue Feb 22 2022 15:07:53 | ---Staking upgrade 1 done---
+
+Tue Feb 22 2022 15:43:29 | ---Transfer ownership---
+Tue Feb 22 2022 15:43:32 | Transfering ownership of Staking to 0x8fFf2c4517708d51540eD6ef9124BB48b5Db50e4
+Tue Feb 22 2022 15:43:35 GMT+0200 (Israel Standard Time) | Error: cannot estimate gas; transaction may fail or may require manual gas limit (error={"name":"ProviderError","code":3,"_isProviderError":true,"data":"0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000204f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572"}, method="estimateGas", transaction={"from":"0x725AC570B0ED65219b950a606404BB35021A6b1E","to":"0xCeE4510fc056fd7dCCf8109F9Ed9fe452D732B4c","data":"0xf2fde38b0000000000000000000000008fff2c4517708d51540ed6ef9124bb48b5db50e4","accessList":null}, code=UNPREDICTABLE_GAS_LIMIT, version=providers/5.5.1)
+Tue Feb 22 2022 15:44:28 | ---Transfer ownership---
+Tue Feb 22 2022 15:44:31 | Transfering ownership of Staking to 0x8fFf2c4517708d51540eD6ef9124BB48b5Db50e4
+Tue Feb 22 2022 15:44:37 | https://etherscan.io/tx/0x8c810086882f615e9b35e8d23d9559f09038467b2757770f2f3ca3927aa63a85
+Tue Feb 22 2022 15:44:37 | ---Transfer ownership Done---
+Tue Feb 22 2022 15:45:58 | ---Transfer ownership---
+Tue Feb 22 2022 15:46:01 | Transfering ownership of Staking to 0x8fFf2c4517708d51540eD6ef9124BB48b5Db50e4
+Tue Feb 22 2022 15:46:07 | https://etherscan.io/tx/0x8939c17026e0f7dcfb6ae2e22587d66a626dd8319b989ac5004492263a053a9e
+Tue Feb 22 2022 15:46:07 | ---Transfer ownership Done---
+Tue Feb 22 2022 15:49:45 | ---Staking upgrade 1---
+Tue Feb 22 2022 15:49:45 | Upgrading Staking...
+Tue Feb 22 2022 15:49:55 GMT+0200 (Israel Standard Time) | Error: cannot estimate gas; transaction may fail or may require manual gas limit (error={"name":"ProviderError","code":3,"_isProviderError":true,"data":"0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000204f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572"}, method="estimateGas", transaction={"from":"0x725AC570B0ED65219b950a606404BB35021A6b1E","to":"0xAb1E3fb4D35A0eA4e369463743f964Ae90ac09AF","data":"0x99a88ec4000000000000000000000000cee4510fc056fd7dccf8109f9ed9fe452d732b4c00000000000000000000000038061355272e487ca6ba929038442734127114e1","accessList":null}, code=UNPREDICTABLE_GAS_LIMIT, version=providers/5.5.1)
+Tue Feb 22 2022 15:51:20 | ---Staking upgrade 1---
+Tue Feb 22 2022 15:51:20 | Upgrading Staking...
+Tue Feb 22 2022 15:51:30 GMT+0200 (Israel Standard Time) | Error: cannot estimate gas; transaction may fail or may require manual gas limit (error={"name":"ProviderError","code":3,"_isProviderError":true,"data":"0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000204f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572"}, method="estimateGas", transaction={"from":"0xcAc33C535B2c09C0Ae312E09841d51CCaeF9b11c","to":"0xAb1E3fb4D35A0eA4e369463743f964Ae90ac09AF","data":"0x99a88ec4000000000000000000000000cee4510fc056fd7dccf8109f9ed9fe452d732b4c00000000000000000000000038061355272e487ca6ba929038442734127114e1","accessList":null}, code=UNPREDICTABLE_GAS_LIMIT, version=providers/5.5.1)
+Tue Feb 22 2022 17:17:58 | ---Set min limit for bridge---
+Tue Feb 22 2022 17:17:59 | Set min limit amount...
+Tue Feb 22 2022 17:18:06 | https://etherscan.io/tx/0x6d88cdab80844e8fe6cb7f52145da46be7aa2adf8a62bd22c07e7b98dee418cd
+Tue Feb 22 2022 17:18:06 | Set min limit Done
+Thu Feb 24 2022 18:24:52 | ---Set comission amount for bridge--- 
+Thu Feb 24 2022 18:24:54 | Set comission amount... 
+Thu Feb 24 2022 18:24:59 | https://etherscan.io/tx/0xec15083ddef62b6d7c488d12938e2be54f5f61259eab757b1bdce07bb41d1795 
+Thu Feb 24 2022 18:24:59 | Set comission amount Done 
+Sun Feb 27 2022 16:07:49 | ---Transfer ownership--- 
+Sun Feb 27 2022 16:07:51 | Transfering ownership of Bridge to 0x6F8F0Fc5887dDf09A1D3e84E60438FF37B6604ad 
+Sun Feb 27 2022 16:07:58 | https://etherscan.io/tx/0xb1573b727002f0c837b2eddf91279c34871094711d3611fddb9c9d36bebff3cb 
+Sun Feb 27 2022 16:07:58 | ---Transfer ownership Done--- 
+Thu May 19 2022 17:28:55 | ---Promote Quarter--- 
+Thu May 19 2022 17:28:59 | current quarter is:0 
+Thu May 19 2022 17:29:06 | https://etherscan.io/tx/0xfec405b6ad50c30ce1c782432cf1223a6894132b66cc3ee7806a1ab75938e62d 
+Thu May 19 2022 17:29:06 | ---Promote Quarter Done--- 
+Thu Aug 18 2022 16:31:12 | ---Promote Quarter--- 
+Thu Aug 18 2022 16:31:17 | current quarter is:1
+Thu Aug 18 2022 16:31:32 | https://etherscan.io/tx/0xf2fd17a74eb8683e151f0f50477b04b17e0dd5b7a677d945addd7031928f2cb6
+Thu Aug 18 2022 16:31:32 | ---Promote Quarter Done---
+Thu Nov 17 2022 16:28:12 | ---Promote Quarter--- 
+Thu Nov 17 2022 16:28:17 | current quarter is:2 
+Thu Nov 17 2022 16:28:32 | https://etherscan.io/tx/0xd5696993d53101b0bbf7373420645759e1d39a8392d512a7acb4d463f72ac479 
+Thu Nov 17 2022 16:28:32 | ---Promote Quarter Done---
+Thu Feb 16 2023 16:28:23 | ---Promote Quarter--- 
+Thu Feb 16 2023 16:28:25 | current quarter is:3 
+Thu Feb 16 2023 16:28:30 | https://etherscan.io/tx/0xf17902cd7fc560d81658325edbf4a393095fd6ea85c6ad4e51e8f6ad10e1fbfa 
+Thu Feb 16 2023 16:28:30 | ---Promote Quarter Done--- 
+Thu May 18 2023 17:28:31 | ---Promote Quarter--- 
+Thu May 18 2023 17:28:34 | current quarter is:4 
+Thu May 18 2023 17:28:40 | https://etherscan.io/tx/0x5c680420090e80019b2d0cfe5312b028c837d1837ac8d5c227ef5b77a7deff48 
+Thu May 18 2023 17:28:40 | ---Promote Quarter Done--- 
+Wed May 22 2024 14:36:09 | ---Deplyoment of RTB token--- 
+Wed May 22 2024 14:36:09 | Deploying RTB token... 
+Wed May 22 2024 14:36:17 | https://undefined.etherscan.io/address/0x055999B83f9cADE9E3988A0f34Ef72817566800D 
+Wed May 22 2024 14:36:17 | ---Deplyoment of RTB token Done--- 
+Wed May 22 2024 14:37:53 | ---Mint RTB tokens--- 
+Wed May 22 2024 14:37:54 | Minting 1000000000 tokens to 0xdb00922dF18FC18b307C54b550626fF6c728F811 
+Wed May 22 2024 14:38:00 | https://undefined.etherscan.io/tx/0xbcde9e631fde8f12554cad3694e3b1bed6bf482f93022420280f7756e97612ed 
+Wed May 22 2024 14:38:00 | ---Mint RTB tokens Done--- 
+Wed May 22 2024 14:40:20 | ---Transfer RTB to Staking contract--- 
+Wed May 22 2024 14:40:20 | Transfering 1000000000 RTB tokens to 0x70356056ee3D418b3C0CC50c6dC15df81D809593 
+Wed May 22 2024 14:40:26 | https://undefined.etherscan.io/tx/0x8e4c57a2a11837a5ec3ae1c2438863e7418070abf1be1a1e06226bf0abb227f8 
+Wed May 22 2024 14:40:26 | ---Transfer RTB to Staking contract Done--- 
+Wed May 22 2024 15:28:30 | ---Deplyoment of RTB token--- 
+Wed May 22 2024 15:28:30 | Deploying RTB token... 
+Wed May 22 2024 15:28:50 | https://etherscan.io/address/0x055999B83f9cADE9E3988A0f34Ef72817566800D 
+Wed May 22 2024 15:28:50 | ---Deplyoment of RTB token Done--- 
+Wed May 22 2024 15:31:23 | ---Verify RTB contract--- 
+Wed May 22 2024 15:31:31 | error: Command failed: npx hardhat verify --network mainnet 0x055999B83f9cADE9E3988A0f34Ef72817566800D
+(node:18177) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+DEPRECATION WARNING: 'hardhat-etherscan' has been deprecated in favor of 'hardhat-verify'. You can find more information about the migration in the readme.
+Error in plugin @nomiclabs/hardhat-etherscan: More than one contract was found to match the deployed bytecode.
+Please use the contract parameter with one of the following contracts:
+  * contracts/BBSToken.sol:BBSToken
+  * contracts/RTBToken.sol:RTBToken
+
+For example:
+
+  hardhat verify --contract contracts/Example.sol:ExampleContract <other args>
+
+If you are running the verify subtask from within Hardhat instead:
+
+  await run("verify:verify", {
+    <other args>,
+    contract: "contracts/Example.sol:ExampleContract"
+  };
+For more info run Hardhat with --show-stack-traces
+ 
+Wed May 22 2024 15:33:47 | ---Mint RTB tokens--- 
+Wed May 22 2024 15:33:47 | Minting 1000000000 tokens to 0xdb00922dF18FC18b307C54b550626fF6c728F811 
+Wed May 22 2024 15:34:01 | https://etherscan.io/tx/0xdb9433e6300f324b234ca706ba39b03a085f573b5a83617c9f110a89629a57ca 
+Wed May 22 2024 15:34:01 | ---Mint RTB tokens Done--- 
+Wed May 22 2024 16:09:18 | ---Transfer ownership--- 
+Wed May 22 2024 16:09:20 | Transfering ownership of RTBToken to 0x8fFf2c4517708d51540eD6ef9124BB48b5Db50e4 
+Wed May 22 2024 16:09:38 | https://etherscan.io/tx/0xc8500b5ab5061f8ac254d3b4a694e970cf11808a9e538d39e50dbcf23102169e 
+Wed May 22 2024 16:09:38 | ---Transfer ownership Done--- 
+Wed May 22 2024 16:15:41 | ---Staking upgrade 2--- 
+Wed May 22 2024 16:15:41 | Upgrading Staking... 
+Wed May 22 2024 16:16:11 GMT+0300 (Israel Daylight Time) | Error: cannot estimate gas; transaction may fail or may require manual gas limit (error={"name":"ProviderError","code":3,"_isProviderError":true,"data":"0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000204f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572"}, method="estimateGas", transaction={"from":"0xdb00922dF18FC18b307C54b550626fF6c728F811","to":"0xAb1E3fb4D35A0eA4e369463743f964Ae90ac09AF","data":"0x99a88ec4000000000000000000000000cee4510fc056fd7dccf8109f9ed9fe452d732b4c0000000000000000000000009896bf7c7b86b2d489a14e4b3f5bbe9520e5da6d","accessList":null}, code=UNPREDICTABLE_GAS_LIMIT, version=providers/5.5.2)
+Wed May 22 2024 16:31:34 | ---Staking upgrade 2--- 
+Wed May 22 2024 16:31:34 | Upgrading Staking... 
+Wed May 22 2024 16:32:04 | https://etherscan.io/address/0xCeE4510fc056fd7dCCf8109F9Ed9fe452D732B4c 
+Wed May 22 2024 16:32:04 | ---Staking upgrade 2 done--- 
+Wed May 22 2024 16:40:10 | ---Transfer RTB to Staking contract--- 
+Wed May 22 2024 16:40:11 | Transfering 1000000000 RTB tokens to 0xCeE4510fc056fd7dCCf8109F9Ed9fe452D732B4c 
+Wed May 22 2024 16:40:30 | https://etherscan.io/tx/0x1b21dd03de326a51a12d80419afa9aa6c37138ce90d91ef356e7cc4f08bdb5e0 
+Wed May 22 2024 16:40:30 | ---Transfer RTB to Staking contract Done--- 
+Wed May 22 2024 16:43:45 | ---Transfer ownership--- 
+Wed May 22 2024 16:43:47 | Transfering ownership of Staking to 0x8fFf2c4517708d51540eD6ef9124BB48b5Db50e4 
+Wed May 22 2024 16:44:00 | https://etherscan.io/tx/0x4c41985b7648cc43e0ac243d6ac974cf18d76130f1845d802f20d13cd08eea86 
+Wed May 22 2024 16:44:00 | ---Transfer ownership Done--- 
