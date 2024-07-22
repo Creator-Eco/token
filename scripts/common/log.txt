@@ -1,0 +1,54 @@
+Sun May 07 2023 13:24:38 | Deploying BBS token... 
+Sun May 07 2023 13:24:45 | https://sepolia.etherscan.io/address/0x56454C9d4C7856A54ac8EFF8EFe0910eBa294A28 
+Sun May 07 2023 13:24:45 | ---Deplyoment of BBS token Done---
+
+Sun May 07 2023 13:27:48 | ---Mint BBS tokens--- 
+Sun May 07 2023 13:27:48 | Minting 1000000000 tokens to 0x44569Aa35Ff6d97e6531880712a41D2af72a007C 
+Sun May 07 2023 13:27:54 | https://sepolia.etherscan.io/tx/0x8e536d9f405fade196cfece34aaaa27887484cfc5232fcd16f0cb2e9b624a31e 
+Sun May 07 2023 13:27:54 | ---Mint BBS tokens Done--- 
+Sun May 07 2023 13:29:38 | ---Verify BBS contract--- 
+Sun May 07 2023 13:29:40 | error: Command failed: npx hardhat verify --network sepolia 0x56454C9d4C7856A54ac8EFF8EFe0910eBa294A28
+Error in plugin @nomiclabs/hardhat-etherscan: Unsupported network ("sepolia", chainId: 11155111).
+For more info run Hardhat with --show-stack-traces
+ 
+Sun May 07 2023 13:32:41 | ---Deployment of Staking--- 
+Sun May 07 2023 13:32:41 | Deploying Staking... 
+Sun May 07 2023 13:33:50 | https://sepolia.etherscan.io/address/0x74D22cf65bb9433aa7AfbDf6a4f84FA49C15ed68 
+Sun May 07 2023 13:33:50 | ---Deployment of Staking Done--- 
+Sun May 07 2023 13:36:44 | ---Declare rewards--- 
+Sun May 07 2023 13:36:45 | Required rewards for quarter 0 is 200000000000000000000000 (wei) 
+Sun May 07 2023 13:36:46 | Current rewards for quarter 0 is 0 (wei) 
+Sun May 07 2023 13:36:46 | Adding rewards for quarter 0, amount (wei): 200000000000000000000000 
+Sun May 07 2023 13:36:56 | https://sepolia.etherscan.io/tx/0xd5e0f83003978a329430d839ada3fe1b28733cc95b4c7bf0a00e28c9fb8a0cac 
+Sun May 07 2023 13:36:56 | ---Declare rewards Done--- 
+Sun May 07 2023 13:37:24 | ---Declare rewards--- 
+Sun May 07 2023 13:37:24 | Required rewards for quarter 1 is 200000000000000000000000 (wei) 
+Sun May 07 2023 13:37:26 | Current rewards for quarter 1 is 0 (wei) 
+Sun May 07 2023 13:37:26 | Adding rewards for quarter 1, amount (wei): 200000000000000000000000 
+Sun May 07 2023 13:42:53 | ---Declare rewards--- 
+Sun May 07 2023 13:42:54 | Required rewards for quarter 1 is 200000000000000000000000 (wei) 
+Sun May 07 2023 13:42:56 | Current rewards for quarter 1 is 0 (wei) 
+Sun May 07 2023 13:42:56 | Adding rewards for quarter 1, amount (wei): 200000000000000000000000 
+Sun May 07 2023 13:43:04 | https://sepolia.etherscan.io/tx/0xf38c7a718b0250db33044d2e99a442d0af4bac1b161fd7256f6ea8d321a74b26 
+Sun May 07 2023 13:43:04 | ---Declare rewards Done--- 
+Sun May 07 2023 14:07:48 | ---Declare rewards--- 
+Sun May 07 2023 14:07:48 | Required rewards for quarter 2 is 200000000000000000000000 (wei) 
+Sun May 07 2023 14:07:50 | Current rewards for quarter 2 is 0 (wei) 
+Sun May 07 2023 14:07:50 | Adding rewards for quarter 2, amount (wei): 200000000000000000000000 
+Sun May 07 2023 14:07:59 | https://sepolia.etherscan.io/tx/0x517537b00931546ad3b303f1137a9a6e89cc68174f5ec8d1f73fcb779e3c5fcb 
+Sun May 07 2023 14:07:59 | ---Declare rewards Done--- 
+Sun May 07 2023 14:08:11 | ---Declare rewards--- 
+Sun May 07 2023 14:08:12 | Required rewards for quarter 3 is 200000000000000000000000 (wei) 
+Sun May 07 2023 14:08:13 | Current rewards for quarter 3 is 0 (wei) 
+Sun May 07 2023 14:08:13 | Adding rewards for quarter 3, amount (wei): 200000000000000000000000 
+Sun May 07 2023 14:08:22 | https://sepolia.etherscan.io/tx/0x2f641c3f807e024d48374d69a15dfc48af5d43245408705bfa19d7b925d4c922 
+Sun May 07 2023 14:08:22 | ---Declare rewards Done--- 
+Sun May 07 2023 14:12:39 | ---Deployment of Bridge--- 
+Sun May 07 2023 14:12:39 | Deploying Bridge... 
+Sun May 07 2023 14:12:46 | https://sepolia.etherscan.io/address/0x94C26662F89dA05c25f2afBB3fe31FF96548869A 
+Sun May 07 2023 14:12:46 | ---Deployment of Bridge Done--- 
+Sun May 07 2023 14:14:43 | ---Set reporters for bridge--- 
+Sun May 07 2023 14:14:43 | Set Reporters... 
+Sun May 07 2023 14:14:49 | https://sepolia.etherscan.io/tx/0x326b99bf8557689e73c56a7b01da1e254d17ccc94316c5bc4128e48abcd02d2a 
+Sun May 07 2023 14:14:49 | Set Reporters Done 
+Sun May 07 2023 14:14:49 | ---Set reporters for bridge Done--- 
