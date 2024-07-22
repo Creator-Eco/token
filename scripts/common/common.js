@@ -90,6 +90,10 @@ module.exports = {
                 network = 'rinkeby.';
                 break;
             }
+            case(11155111): {
+                network = 'sepolia.';
+                break;
+            }
             default: {
                 network = 'undefined.';
             }

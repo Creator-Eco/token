@@ -27,10 +27,10 @@ module.exports = {
         hardhat: {
             chainId: 1337
         },
-        // mainnet: {
-        //     url: 'https://mainnet.infura.io/v3/b481942a6a15462988f7ab9000ca51ab',
-        //     accounts: ['']
-        // },
+        mainnet: {
+            url: 'https://mainnet.infura.io/v3/b481942a6a15462988f7ab9000ca51ab',
+            accounts: ['']
+        },
         rinkeby: {
             url: 'https://rinkeby.infura.io/v3/b481942a6a15462988f7ab9000ca51ab',
             accounts : ['0x3878a7de2d0cf3ca4c23c237ec5fd254edf73134dd83d1ef74efdba9855bdadd']
@@ -41,7 +41,7 @@ module.exports = {
         },
         sepolia: {
             url: 'https://sepolia.infura.io/v3/b481942a6a15462988f7ab9000ca51ab',
-            accounts : ['0xa54eb7f94dae3fdf83bdb0036eea1c673e824fc8109a70bdb6748adddffe3538']
+            accounts : ['']
         }
     }
 };
